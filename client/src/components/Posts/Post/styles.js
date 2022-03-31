@@ -30,7 +30,7 @@ export default makeStyles((theme) => ({
   overlay2: {
     position: "absolute",
     top: "20px",
-    left: "20px",
+    right: "20px",
     color: "white",
   },
   grid: {
