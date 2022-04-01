@@ -14,6 +14,9 @@
 # lock
 *-lock.json
 
+#env
+*.env
+
 # misc
 .DS_Store
 .env.local
