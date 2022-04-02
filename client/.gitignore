@@ -14,6 +14,9 @@
 # lock
 *-lock.json
 
+# secretKey
+secretKey.js
+
 # misc
 .DS_Store
 .env.local

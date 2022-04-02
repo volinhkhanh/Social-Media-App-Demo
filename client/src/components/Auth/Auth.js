@@ -18,9 +18,6 @@ import Input from "./Input";
 import { AUTH } from "../../constants/actionTypes";
 import { signIn, signUp } from "../../actions/auth";
 
-// CLient Secret
-// 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
-
 const initialState = {
   firstName: "",
   lastName: "",
