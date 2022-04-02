@@ -14,9 +14,10 @@ const Paginate = () => {
       page={1}
       variant="outlined"
       color="primary"
-      renderItem={(item) => {
-        <PaginationItem {...item} component={Link} to={`/posts?page=${1}`} />;
-      }}
+      
+      renderItem={(item) => (
+        <PaginationItem {...item} component={Link} to={`/posts?page=${1}`} />
+      )}
     />
   );
 };
