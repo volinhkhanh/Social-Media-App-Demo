@@ -36,7 +36,7 @@ const Form = ({ currentId, setCurrentId }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (currentId === 0) {
       dispatch(createPost({ ...postData, name: user?.result?.name }));
       clear();
@@ -59,7 +59,7 @@ const Form = ({ currentId, setCurrentId }) => {
   }
 
   return (
-    <Paper className={classes.paper}>
+    <Paper className={classes.paper} elevation={6}>
       <form
         autoComplete="off"
         noValidate
