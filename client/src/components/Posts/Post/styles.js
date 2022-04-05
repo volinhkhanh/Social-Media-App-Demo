@@ -44,6 +44,11 @@ export default makeStyles((theme) => ({
   title: {
     padding: "0 16px",
   },
+  cardAction: {
+    padding: "0 16px 8px 16px",
+    display: "flex",
+    // justifyContent: "space-between",
+  },
   cardActions: {
     padding: "0 16px 8px 16px",
     display: "flex",
